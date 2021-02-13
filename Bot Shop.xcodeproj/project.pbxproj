@@ -9,19 +9,23 @@
 /* Begin PBXBuildFile section */
 		507C4E9325D4B77400FB058F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 507C4E9225D4B77400FB058F /* AppDelegate.swift */; };
 		507C4E9525D4B77400FB058F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 507C4E9425D4B77400FB058F /* SceneDelegate.swift */; };
-		507C4E9725D4B77400FB058F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 507C4E9625D4B77400FB058F /* ViewController.swift */; };
+		507C4E9725D4B77400FB058F /* NewOrderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 507C4E9625D4B77400FB058F /* NewOrderViewController.swift */; };
 		507C4E9C25D4B77600FB058F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 507C4E9B25D4B77600FB058F /* Assets.xcassets */; };
 		507C4E9F25D4B77600FB058F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 507C4E9D25D4B77600FB058F /* LaunchScreen.storyboard */; };
+		507C4EAB25D4BE1100FB058F /* PastOrderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 507C4EAA25D4BE1100FB058F /* PastOrderViewController.swift */; };
+		507C4EAE25D4BE7700FB058F /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 507C4EAD25D4BE7700FB058F /* TabBarController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		507C4E8F25D4B77400FB058F /* Bot Shop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bot Shop.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		507C4E9225D4B77400FB058F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		507C4E9425D4B77400FB058F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		507C4E9625D4B77400FB058F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		507C4E9625D4B77400FB058F /* NewOrderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewOrderViewController.swift; sourceTree = "<group>"; };
 		507C4E9B25D4B77600FB058F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		507C4E9E25D4B77600FB058F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		507C4EA025D4B77600FB058F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		507C4EAA25D4BE1100FB058F /* PastOrderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PastOrderViewController.swift; sourceTree = "<group>"; };
+		507C4EAD25D4BE7700FB058F /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,7 +60,9 @@
 			children = (
 				507C4E9225D4B77400FB058F /* AppDelegate.swift */,
 				507C4E9425D4B77400FB058F /* SceneDelegate.swift */,
-				507C4E9625D4B77400FB058F /* ViewController.swift */,
+				507C4EAA25D4BE1100FB058F /* PastOrderViewController.swift */,
+				507C4EAD25D4BE7700FB058F /* TabBarController.swift */,
+				507C4E9625D4B77400FB058F /* NewOrderViewController.swift */,
 				507C4E9B25D4B77600FB058F /* Assets.xcassets */,
 				507C4E9D25D4B77600FB058F /* LaunchScreen.storyboard */,
 				507C4EA025D4B77600FB058F /* Info.plist */,
@@ -133,9 +139,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				507C4E9725D4B77400FB058F /* ViewController.swift in Sources */,
+				507C4E9725D4B77400FB058F /* NewOrderViewController.swift in Sources */,
 				507C4E9325D4B77400FB058F /* AppDelegate.swift in Sources */,
 				507C4E9525D4B77400FB058F /* SceneDelegate.swift in Sources */,
+				507C4EAE25D4BE7700FB058F /* TabBarController.swift in Sources */,
+				507C4EAB25D4BE1100FB058F /* PastOrderViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
