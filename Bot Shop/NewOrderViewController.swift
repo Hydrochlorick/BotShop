@@ -44,7 +44,7 @@ class NewOrderViewController: UIViewController {
 
 }
 
-extension NewOrderViewController: UICollectionViewDataSource, UICollectionViewDelegate {
+extension NewOrderViewController: UICollectionViewDataSource, UICollectionViewDelegateFlowLayout {
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         return 10
     }
