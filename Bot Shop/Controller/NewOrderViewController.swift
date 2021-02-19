@@ -26,7 +26,7 @@ class NewOrderViewController: UIViewController {
         Item(title: "Muscular", image: UIImage(named: "robot2")!),
         Item(title: "Endocrine", image: UIImage(named: "robot3")!),
         Item(title: "Excretory", image: UIImage(named: "robot4")!),
-        Item(title: "Lymphatique", image: UIImage(named: "robot5")!),
+        Item(title: "Lymphatic", image: UIImage(named: "robot5")!),
         Item(title: "NervousAF", image: UIImage(named: "robot6")!),
     ]
 

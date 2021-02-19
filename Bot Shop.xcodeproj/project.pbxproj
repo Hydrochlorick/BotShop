@@ -16,6 +16,7 @@
 		507C4E9F25D4B77600FB058F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 507C4E9D25D4B77600FB058F /* LaunchScreen.storyboard */; };
 		507C4EAB25D4BE1100FB058F /* PastOrderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 507C4EAA25D4BE1100FB058F /* PastOrderViewController.swift */; };
 		507C4EAE25D4BE7700FB058F /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 507C4EAD25D4BE7700FB058F /* TabBarController.swift */; };
+		50C336C625E063900075F0EC /* PastOrderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50C336C525E063900075F0EC /* PastOrderCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		507C4EA025D4B77600FB058F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		507C4EAA25D4BE1100FB058F /* PastOrderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PastOrderViewController.swift; sourceTree = "<group>"; };
 		507C4EAD25D4BE7700FB058F /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		50C336C525E063900075F0EC /* PastOrderCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PastOrderCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,18 +64,43 @@
 		507C4E9125D4B77400FB058F /* Bot Shop */ = {
 			isa = PBXGroup;
 			children = (
+				50C336C425E063450075F0EC /* Model */,
+				50C336C325E063410075F0EC /* Controller */,
+				50C336C225E0633A0075F0EC /* View */,
 				507C4E9225D4B77400FB058F /* AppDelegate.swift */,
 				507C4E9425D4B77400FB058F /* SceneDelegate.swift */,
-				502EE47425D888A300796759 /* NewItemCell.swift */,
-				502EE47725D97D4900796759 /* Item.swift */,
-				507C4EAA25D4BE1100FB058F /* PastOrderViewController.swift */,
-				507C4EAD25D4BE7700FB058F /* TabBarController.swift */,
-				507C4E9625D4B77400FB058F /* NewOrderViewController.swift */,
 				507C4E9B25D4B77600FB058F /* Assets.xcassets */,
 				507C4E9D25D4B77600FB058F /* LaunchScreen.storyboard */,
 				507C4EA025D4B77600FB058F /* Info.plist */,
 			);
 			path = "Bot Shop";
+			sourceTree = "<group>";
+		};
+		50C336C225E0633A0075F0EC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				502EE47425D888A300796759 /* NewItemCell.swift */,
+				50C336C525E063900075F0EC /* PastOrderCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		50C336C325E063410075F0EC /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				507C4EAD25D4BE7700FB058F /* TabBarController.swift */,
+				507C4EAA25D4BE1100FB058F /* PastOrderViewController.swift */,
+				507C4E9625D4B77400FB058F /* NewOrderViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		50C336C425E063450075F0EC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				502EE47725D97D4900796759 /* Item.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -147,6 +174,7 @@
 			files = (
 				507C4E9725D4B77400FB058F /* NewOrderViewController.swift in Sources */,
 				507C4E9325D4B77400FB058F /* AppDelegate.swift in Sources */,
+				50C336C625E063900075F0EC /* PastOrderCell.swift in Sources */,
 				507C4E9525D4B77400FB058F /* SceneDelegate.swift in Sources */,
 				507C4EAE25D4BE7700FB058F /* TabBarController.swift in Sources */,
 				502EE47825D97D4900796759 /* Item.swift in Sources */,
