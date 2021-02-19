@@ -9,6 +9,14 @@ import UIKit
 
 class NewItemCell: UICollectionViewCell {
     
+    var data: Item? {
+        didSet{
+            guard let data = data else {return}
+            image.image = data.image
+            title.text = data.title
+        }
+    }
+    
     let stackView: UIStackView = {
         let stackView = UIStackView()
         stackView.axis = .vertical
