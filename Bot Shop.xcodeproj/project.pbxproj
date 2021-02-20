@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5022C00125E086680015F072 /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5022C00025E086680015F072 /* Order.swift */; };
+		5022C00425E08A540015F072 /* OrderList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5022C00325E08A540015F072 /* OrderList.swift */; };
 		502EE47525D888A300796759 /* NewItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 502EE47425D888A300796759 /* NewItemCell.swift */; };
 		502EE47825D97D4900796759 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 502EE47725D97D4900796759 /* Item.swift */; };
 		507C4E9325D4B77400FB058F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 507C4E9225D4B77400FB058F /* AppDelegate.swift */; };
@@ -20,6 +22,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5022C00025E086680015F072 /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
+		5022C00325E08A540015F072 /* OrderList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderList.swift; sourceTree = "<group>"; };
 		502EE47425D888A300796759 /* NewItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewItemCell.swift; sourceTree = "<group>"; };
 		502EE47725D97D4900796759 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		507C4E8F25D4B77400FB058F /* Bot Shop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bot Shop.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -90,6 +94,7 @@
 			children = (
 				507C4EAD25D4BE7700FB058F /* TabBarController.swift */,
 				507C4EAA25D4BE1100FB058F /* PastOrderViewController.swift */,
+				5022C00325E08A540015F072 /* OrderList.swift */,
 				507C4E9625D4B77400FB058F /* NewOrderViewController.swift */,
 			);
 			path = Controller;
@@ -99,6 +104,7 @@
 			isa = PBXGroup;
 			children = (
 				502EE47725D97D4900796759 /* Item.swift */,
+				5022C00025E086680015F072 /* Order.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -174,7 +180,9 @@
 			files = (
 				507C4E9725D4B77400FB058F /* NewOrderViewController.swift in Sources */,
 				507C4E9325D4B77400FB058F /* AppDelegate.swift in Sources */,
+				5022C00425E08A540015F072 /* OrderList.swift in Sources */,
 				50C336C625E063900075F0EC /* PastOrderCell.swift in Sources */,
+				5022C00125E086680015F072 /* Order.swift in Sources */,
 				507C4E9525D4B77400FB058F /* SceneDelegate.swift in Sources */,
 				507C4EAE25D4BE7700FB058F /* TabBarController.swift in Sources */,
 				502EE47825D97D4900796759 /* Item.swift in Sources */,

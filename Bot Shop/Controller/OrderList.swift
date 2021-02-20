@@ -1,13 +1,14 @@
 //
-//  PastOrderViewController.swift
+//  OrderList.swift
 //  Bot Shop
 //
-//  Created by Rick Jacobson on 2/10/21.
+//  Created by Rick Jacobson on 2/19/21.
 //
+
 import Foundation
 import UIKit
 
-class PastOrderViewController: UIViewController {
+class OrderList: UIViewController {
     
     let tableView = UITableView()
     
@@ -47,7 +48,7 @@ class PastOrderViewController: UIViewController {
 
 }
 
-extension PastOrderViewController: UITableViewDataSource, UITableViewDelegate {
+extension OrderList: UITableViewDataSource, UITableViewDelegate {
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return orders.count
@@ -64,12 +65,6 @@ extension PastOrderViewController: UITableViewDataSource, UITableViewDelegate {
     
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         return 100.0
-    }
-    
-    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        print("Selected!")
-        let nextVC: OrderList = OrderList()
-        self.navigationController?.pushViewController(nextVC, animated: true)
     }
     
 }
