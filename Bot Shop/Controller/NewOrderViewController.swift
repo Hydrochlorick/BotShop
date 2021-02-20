@@ -38,7 +38,7 @@ class NewOrderViewController: UIViewController {
         
         setViews()
         
-        view.backgroundColor = .red
+        view.backgroundColor = UIColor(red:0.5, green:0.8, blue:0.8, alpha:1.0)
     }
     
     func setViews(){
@@ -60,7 +60,7 @@ extension NewOrderViewController: UICollectionViewDataSource, UICollectionViewDe
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "cell", for: indexPath) as! NewItemCell
-        cell.backgroundColor = .green
+        cell.backgroundColor = UIColor(red: 0.3, green: 0.8, blue: 0.5, alpha: 1.0)
         cell.data = self.data[indexPath.row]
         return cell
     }
